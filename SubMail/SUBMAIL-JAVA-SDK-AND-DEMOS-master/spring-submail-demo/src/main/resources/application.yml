@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: submail-demo
+submail:
+  spring-mail:
+    appId: 43909
+    appKey: 735b1cf3b68a0f3e1ec9cc784bd644eb
+    templateKey: MUG9d3

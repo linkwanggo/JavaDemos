@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- 使用spring ioc容器加载bean -->
+    <bean id="accountService" class="com.linkwanggo.service.AccountServiceImpl"></bean>
+
+    <bean id="accountDao" class="com.linkwanggo.dao.AccountDaoImpl"></bean>
+</beans>
