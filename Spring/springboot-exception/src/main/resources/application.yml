@@ -1,0 +1,5 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: spring异常统一处理
